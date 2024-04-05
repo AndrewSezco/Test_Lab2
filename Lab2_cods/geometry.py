@@ -40,7 +40,6 @@ def rhombus_perimeter(side):
     """Функция для вычисления периметра ромба."""
     return 4 * side
 
-# Пример использования функций
 print("Площадь круга с радиусом 5:", circle_area(5))
 print("Периметр круга с радиусом 5:", circle_perimeter(5))
 
