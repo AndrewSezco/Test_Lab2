@@ -136,6 +136,10 @@ double Triangle::Perimetr() {
 	double P = d1 + d2 + d3;
 	return P;
 }
+/*!
+ * \image html test.png
+ * \image latex test.png
+ */
 Triangle Triangle::add(Triangle one, Triangle two) {
 	Triangle temp;
 	temp.x1 = one.x1 + two.x1;
